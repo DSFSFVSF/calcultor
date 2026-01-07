@@ -3,12 +3,12 @@ print("*" * 15," calculator ", "*" * 15)
    
 
 while True :
-  print("select an action")
-  print("|+,-,/,*,Exit|") 
+  print("Выберите действие")
+  print("|+,-,/,*,выйти|") 
   operation = input("выберите действие 1,2,3,4,5\n")
 
   if operation == "5":
-        print("goodbye")  
+        print("пока")  
         break
 
   num1 = float(input("введите первое число"))
