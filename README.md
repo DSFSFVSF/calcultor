@@ -1,36 +1,36 @@
-print("привествую в своем калькуляторе")
+print("Welcome to my calculator")
 print("*" * 15," calculator ", "*" * 15)
    
 
 while True :
-  print("Выберите действие")
-  print("|+,-,/,*,выйти|") 
-  operation = input("выберите действие 1,2,3,4,5\n")
+  print("select an action")
+  print("|+,-,/,*,exit|") 
+  operation = input("select an action 1,2,3,4,5\n")
 
   if operation == "5":
-        print("пока")  
+        print("Goodbue")  
         break
 
-  num1 = float(input("введите первое число"))
-  num2 = float(input("введите второе число"))
+  num1 = float(input("choose the first number"))
+  num2 = float(input("choose the second number"))
 
  
   if operation == "1" :
-       print(F"результат:{num1} + {num2} = {num1 + num2}")
+       print(F"result:{num1} + {num2} = {num1 + num2}")
  
   elif operation == "2":
-     print(F"результат:{num1} - {num2} = {num1 - num2}")
+     print(F"result:{num1} - {num2} = {num1 - num2}")
 
   elif operation == "3":
     if num2 == 0:
-         print("Ошибка: деление на ноль!")
+         print("Error: division by zero!")
     else:
-         print(F"результат: {num1} / {num2} = {num1 / num2}")  
+         print(F"result: {num1} / {num2} = {num1 / num2}")  
 
   elif operation == "4":
-    print(F"результат: {num1} * {num2} = {num1 * num2}")
+    print(F"result: {num1} * {num2} = {num1 * num2}")
 
   else:
-        print("Неверная операция! Выберите 1-5")
+        print("Invalid operation! Select  1-5")
     
   print()  
